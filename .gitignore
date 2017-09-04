@@ -1,0 +1,5 @@
+*.swp
+*.*.swp
+_site/
+.DS_Store
+.sass-cache/

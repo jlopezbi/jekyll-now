@@ -4,7 +4,8 @@ title: About
 permalink: /about/
 ---
 
-I makes arts and projecs.
+This website is under construction.
+My old [website](http://joshlopezbinder.com) is being duplicated here.
 
 ### More Information
 
