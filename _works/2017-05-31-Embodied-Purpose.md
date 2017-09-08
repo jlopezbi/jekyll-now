@@ -1,11 +1,25 @@
 ---
 layout: post
 ---
+{% include work-image.html name="main_image_all_3d.jpg" %}
+
+{% include work-image.html name="side_view_all.jpg" %}
+
+{% include work-image.html name="detail.jpg" %}
 
 # This sculpture is about collections of creatures that live together in colonies.
-I imagined a toy-world where there are two basic factors that affect the ‘fitness’ of a colony. The first factor is population size (p), determined by the number of branches. The second factor is the distribution of resources, or ‘satisfaction’ (s) of each branch in the colony. For an unbalanced colony a large population may go hand-in-hand with a failure to provide resources to the majority. Or vice versa. This imbalance is happening in the colonies on either end of the row. Here are the fitness-scores of all of the colonies in this sculpture, from left to right:</p>
-<p>( population, satisfaction-score )</p>
-<p><span style="font-weight: 400;">(185, 5 ), ( 116, 7 ),  ( 104, 9 ),  ( 76, 15 ),  ( 46, 22 ),  ( 23, 43 ),  ( 16, 62 )</span></p>
+I imagined a toy-world where there are two basic factors that affect the ‘fitness’ of a colony. The first factor is population size (p), determined by the number of branches. The second factor is the distribution of resources, or ‘satisfaction’ (s) of each branch in the colony. For an unbalanced colony a large population may go hand-in-hand with a failure to provide resources to the majority. Or vice versa. This imbalance is happening in the colonies on either end of the row. Here are the fitness-scores of all of the colonies in this sculpture, from left to right:
+
+( population, satisfaction-score )
+
+(185, 5 ), ( 116, 7 ),  ( 104, 9 ),  ( 76, 15 ),  ( 46, 22 ),  ( 23, 43 ),  ( 16, 62 )
+
+
+{% include work-image.html name="most_branches.jpg" %}
+
+{% include work-image.html name="compromise_colonies.jpg" %}
+
+{% include work-image.html name="highest_avg_satisfaction_colonies.jpg" %}
 
 # How did these shapes come about?
 <p>These colonies were evolved in a computer program and then fabricated using a 3d printer.</p>
