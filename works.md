@@ -3,7 +3,7 @@ layout: default
 ---
 coming soon...
 
-% for work in site.works %}
+{% for work in site.works %}
 <div class="work">
-{{ work.content }}
+  {{ work.content }}
 {% endfor %}
