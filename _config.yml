@@ -87,7 +87,3 @@ exclude:
   - README.md
   - CNAME
 
-collections:
-        works:
-                output: true
-                permalink: /:collection/:title
