@@ -1,6 +1,8 @@
 ---
 layout: post
 ---
+{% include works-image.html name="side_view_all.jpg" %}
+
 
 
 
