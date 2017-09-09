@@ -1,6 +1,5 @@
 ---
 layout: post
-title: Simple Method more Valuable than Complex Tool
 date: 2017-03-24 19:52:27.000000000 -07:00
 type: post
 published: true
@@ -24,7 +23,8 @@ author:
   last_name: Lopez-Binder
 ---
 
-![4_grid]({{ site.baseurl }}/images/target13_4_phenos.png)
+
+{% include image.html name="target13_4_phenos.png" %}
 
 <p><strong>Above:</strong> Phenotypes from 4 different runs of the same evolution. The goal was to reach a fixed target number of nodes in the colony, in this case 13. The genomes for each shape are sub-programs composed of primitive functions (see <a href="https://en.wikipedia.org/wiki/Genetic_programming">genetic programming</a>). This was possible because an important error was removed from the code. See below.</p>
 <p><strong>Slow Evolutions</strong></p>

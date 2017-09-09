@@ -1,9 +1,19 @@
 ---
-layout: post
+layout: work
 ---
-{% include works-image.html name="side_view_all.jpg" %}
 
 
+{% include image.html name="side_view_all.jpg" %}
+
+{% include image.html name="main_image_all_3d.jpg" %}
+
+{% include image.html name="detail.jpg" %}
+
+{% include image.html name="most_branches.jpg" %}
+
+{% include image.html name="compromise_colonies.jpg" %}
+
+{% include image.html name="highest_avg_satisfaction_colonies.jpg" %}
 
 
 # This sculpture is about collections of creatures that live together in colonies.
