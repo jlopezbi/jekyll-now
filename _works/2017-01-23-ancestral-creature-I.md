@@ -23,5 +23,8 @@ author:
   first_name: Joshua
   last_name: Lopez-Binder
 ---
-<p>Steel Wire, Paint.</p>
-<p>Dimensions 30 in. x 8 in. x 7 in.</p>
+{% include image.html name="creature_front_angled.jpg" %}
+{% include image.html name="front.jpg" %}
+{% include image.html name="side_view.jpg" %}
+Steel Wire, Paint.
+Dimensions 30 in. x 8 in. x 7 in.
