@@ -1,6 +1,5 @@
 ---
 layout: work
-date: 2017-01-23 18:54:12.000000000 -08:00
 type: works
 published: true
 status: publish
@@ -8,12 +7,12 @@ categories: []
 tags: []
 meta:
   _edit_last: '1'
+  _thumbnail_id: '705'
   work-client: ''
   work-url: ''
-  work-date: 01/23/2017
+  work-date: 01/05/2017
   work-desc-position: bottom
-  _thumbnail_id: '685'
-  _wp_old_slug: ancestral-creature
+  _wp_old_slug: pupa
 author:
   login: jlopezbi
   email: joshlobinder@gmail.com
@@ -22,11 +21,15 @@ author:
   last_name: Lopez-Binder
 ---
 
-{% include image.html name="creature_front_angled.jpg" %}
+{% include image.html name="angle.jpg" %}
 
 {% include image.html name="front.jpg" %}
 
-{% include image.html name="side_view.jpg" %}
+{% include image.html name="right_side.jpg" %}
 
-Steel Wire, Paint.
-Dimensions 30 in. x 8 in. x 7 in.
+{% include image.html name="inside.jpg" %}
+
+Paper, Glue
+Rhinoceros 3d, Blender, Pepakura
+Dimensions: 13 in. x 5 in. x 4in.
+

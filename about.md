@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 This website is under construction.
-My old [website](http://joshlopezbinder.com) is being duplicated here.
+My old website is being duplicated here.
 
 ### More Information
 
