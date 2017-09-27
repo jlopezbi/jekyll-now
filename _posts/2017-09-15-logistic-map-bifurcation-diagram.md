@@ -24,7 +24,7 @@ For some r you will see the progression of x-values fall into sections of period
 
 You can see this happen using x_0 = .2 and r = 3.82 in this [webapp of the logistic map](http://tuvalu.santafe.edu/~joshua/LogisticTools.html)
 
-Not sure how yet how these observation can be of practical use in modeling stuff outside, but that remains to be seen for me.
+Not sure how yet how these observation can be of practical use in modeling stuff outside, but that remains to be seen!
 
 
 [//]: # [code for this plot is here](https://github.com/jlopezbi/julia_box_projects/blob/12bb8f3fcd48f3de443d1a153b368575fbc64e91/NonLinear_Dynamics_Online_Course/HW2_Bifurcation_Diagram.ipynb)
