@@ -8,7 +8,7 @@ In the process of learning about non-linear dynamics I created this image:
 
 The bottom axis is the parameter r in the logistic map:
 ```
-X = r*x(x-1)
+X = r*x(1-x)
 ```
 The vertical axis shows the x-values produced by running the above equation many times. The equation starts with x = 0.2 (see code for all numbers and stuff). The output X from one iteration of the map is fed back into the map as x. These X values are being plotted. For each parameter r the map is being iterated 800 times and the first 400 iterates are being hidden. This removes the changing part of the x-values, and shows where the values tend to settle (or not) over a long period of time.
 
