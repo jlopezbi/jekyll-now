@@ -25,12 +25,12 @@
             <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
 	    <!-- <p class="site-description">{{ site.description }}</p> -->
           </div>
-
+	{% assign current = page.url | downcase | split: '/' %}
           <nav>
-            <a href="{{ site.baseurl }}/">Works</a>
-            <a href="{{ site.baseurl }}/drawings">Drawings</a>
-            <a href="{{ site.baseurl }}/blog">Blog</a>
-            <a href="{{ site.baseurl }}/about">About</a>
+		  <a href='/' {% if current[1] == nil or current[1] == 'works' %}class='current'{% endif %}>Works</a>
+	    <a href='/drawings' {% if current[1] == 'drawings' %}class='current'{% endif %}>Drawings</a>
+	    <a href='/blog' {% if current[1]== 'blog' %}class='current'{% endif %}>Blog</a>
+	    <a href='/about' {% if current[1] == 'about' %}class='current'{% endif %}>About</a>
           </nav>
         </header>
       </div>
