@@ -88,6 +88,9 @@ exclude:
   - CNAME
 
 collections:
+  posts:
+    output: true
+    permalink: /blog/:title
   works:
     output: true
     permalink: /:collection/:title
