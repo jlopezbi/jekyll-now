@@ -22,8 +22,6 @@ excerpt: A simulation of coral growth with the intent to generate complex heat-s
 
 {% include image.html name="smallLineage_flatPlate.png" %}
 
-*Initially I thought this was an engineering project. I am now framing it in the context of art and science.*
-
 ## Summary
 This project simulates coral growth. A computational model was built using python and the CAD software Rhino. This program created 3D branching structures similar to stony corals.
 
