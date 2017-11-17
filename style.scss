@@ -150,6 +150,8 @@ img {
 /* LAYOUT / SECTIONS */
 /*********************/
 
+
+
 //
 // .masthead
 //
@@ -244,6 +246,17 @@ nav {
 //
 // .main
 //
+
+.grid {
+  position: relative;
+  float: left;
+  height: 200px;
+  width: 50%;
+
+  @include mobile {
+    width: 100%
+  }
+}
 
 .posts > .post {
   padding-bottom: 2em;
