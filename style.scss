@@ -26,7 +26,7 @@ body {
 .container {
   margin: 0 auto;
   max-width: $fullwidth;
-  padding: 0 10px;
+  //padding: 0 10px;
   width: 100%;
 }
 
@@ -247,20 +247,22 @@ nav {
 // .main
 //
 
-.grid {
-  display: inline-block;
-  height: 263px;
-  width: 350px; 
-  //TODO: make width computed automatically using vars
-  margin: 1px;
-  //border-style: solid;
-  //border-width: 2px;
- 
+.grid-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
-  @include mobile {
-    width: 100%
-  }
+.grid-element {
+        border-style: solid;
+        border-width: 1px;
+        width: $fullwidth/2 - 20;
+        margin: 5px;
+        text-align: center;
 }
+
+
 
 .posts > .post {
   padding-bottom: 2em;

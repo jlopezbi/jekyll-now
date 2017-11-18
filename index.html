@@ -2,9 +2,20 @@
 layout: default
 ---
 
+<div class="grid-container">
 {% for work in site.works %}
-<div class="grid">
-         <img src="{{ site.basurl }}/assets/thumbnail_test.png"> 
+<div class="grid-element">
+        <a href="{{ site.baseurl }}{{ work.url }}">TEST
+                <!-- <img src="{{ site.basurl }}/assets/thumbnail_test.png"> -->
+        </a>
         <!-- <p><a href="{{ site.baseurl }}{{ work.url }}">{{ work.title }}</a></p> -->
 </div>
+
 {% endfor %}
+{% assign n = site.works | size | modulo:2 %}
+{% if n == 1 %}
+<div class="grid-element">
+blank
+</div>
+{% endif %}
+</div>
