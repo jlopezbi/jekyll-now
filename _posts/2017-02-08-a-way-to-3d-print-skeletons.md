@@ -1,6 +1,5 @@
 ---
 layout: post
-title: 'A Way to 3D Print Skeletons: Metaball Skinning'
 date: 2017-02-08 06:13:40.000000000 -08:00
 type: post
 published: true
@@ -25,7 +24,7 @@ author:
 ---
 <p><strong>Metaball Skinner:</strong> Update (Mar 24, 2017): I made this functionality into a blender add-on! Get it here: <a href="https://www.blendermarket.com/products/metaball-skinner" target="_blank">https://www.blendermarket.com/products/metaball-skinner</a></p>
 
-![asdf]({{ site.baseurl }}/images/monkeys_compare.png)
+{% include image.html name="monkeys_compare.png" %}
 *Left: result from metaball skinning script I wrote. This model is guaranteed to result in a valid mesh for 3d printing. Right: Built in skin modifier (blender) with a subdivision surface smoothing. This model is likely to cause errors when processed for 3d printing.*
 
 
