@@ -3,9 +3,10 @@ layout: default
 ---
 <div class="row">
 {% for work in site.works %}
-<div class="col-lg-4 "> 
-    <div class="card">card
-    </div>
+<div class="col-lg-4 my-card " style="border-style:solid;border-width:1px"> 
+    	<a class="card-img" href="{{ site.baseurl }}{{ work.url }}" >
+                <img class="my-img centered" src="{{ site.baseurl }}/assets/thumbnail_test.png">
+    </a>
 </div>
 {% endfor %}
 </div>

@@ -242,13 +242,31 @@ nav {
 // .main
 //
 
-.card {
+.my-card {
         background-color: lightblue;
+        overflow: hidden;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        padding: 0px;
 }
 
 .card-img {
-        width: 100%;
+        //display: flex;
+        backround-color: red;
+        align-itmes:center;
+        justify-content: center;
 
+}
+
+.my-img {
+        width: 100%;
+}
+
+.centered {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
 }
 
 .posts > .post {
