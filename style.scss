@@ -110,9 +110,6 @@ img {
   max-width: 100%;
 }
 
-.grid-img {
-    width: 70%;
-}
 
 .current {
   font-weight: bold;
@@ -270,6 +267,10 @@ nav {
         display: flex;
         align-items: center;
         justify-content: center;
+}
+
+.grid-img {
+    width: 100%;
 }
 
 .no-border {
