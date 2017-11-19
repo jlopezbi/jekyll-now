@@ -2,13 +2,13 @@
 {% if include.caption %}
 <div>
     <figure>
-	    <img src="/assets/{{ page.layout }}/{{ imagePath }}" {% if include.alt %} alt="{{ include.alt }}" {% endif %} {% if include.width %} width="{{ include.width }}" {% endif %}/>
+	    <img class="img-fluid" src="/assets/{{ page.layout }}/{{ imagePath }}" {% if include.alt %} alt="{{ include.alt }}" {% endif %} {% if include.width %} width="{{ include.width }}" {% endif %}/>
         <figcaption>{{ include.caption }}</figcaption>
     </figure>
 </div>
 {% else %}
 <div>
-	<img src="/assets/{{ page.layout }}/{{ imagePath }}" {% if include.alt %} alt="{{ include.alt }}" {% endif %} {% if include.width %} width="{{ include.width }}" {% endif %}/>
+	<img class="img-fluid" src="/assets/{{ page.layout }}/{{ imagePath }}" {% if include.alt %} alt="{{ include.alt }}" {% endif %} {% if include.width %} width="{{ include.width }}" {% endif %}/>
 </div>
 {% endif %}
 

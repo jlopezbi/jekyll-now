@@ -23,8 +23,8 @@ body {
   color: $darkGray;
 }
 
-._container {
-  margin: 0 auto;
+.narrow-container {
+  margin: 0 auto; //centers
   max-width: 740px;
   padding: 0 10px;
   width: 100%;
