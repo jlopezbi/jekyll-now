@@ -262,7 +262,7 @@ nav {
         overflow: hidden;
         border-style: solid;
         border-width: 1px;
-        width: $fullwidth/2 - 20;
+        width: $fullwidth/$numCols - 20; 
         height: 200px;
         margin: 5px;
         text-align: center;
