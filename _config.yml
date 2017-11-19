@@ -95,4 +95,6 @@ collections:
     output: true
     permalink: /:collection/:title
 
+columns: 2.0
+
                         

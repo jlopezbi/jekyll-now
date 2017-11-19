@@ -12,9 +12,22 @@ layout: default
 </div>
 
 {% endfor %}
-{% assign n = site.works | size | modulo:2 %}
-{% if n == 1 %}
-<div class="grid-element no-border">
-</div>
+
+<!-- this formula is computing the number of grid-elements needed
+     to complete the last row: n = cols * ceil(n_works/n_cols) - n_works
+     This looks a little funky because I broke it down into stages
+     to make sure the types are correct.-->
+{% assign n_works = site.works | size %}
+{% assign n_cols = site.columns | times: 1.0 %}
+{% assign d = n_works | divided_by: n_cols %}
+{% assign c = n_works | divided_by: n_cols | ceil %}
+{% assign e = n_cols | times: c %}
+{% assign n = e | minus: n_works | floor %}
+
+
+{% if n > 0  %}
+{% for i in (1..n) %}
+<div class="grid-element no-border">empty</div>
+{% endfor %}
 {% endif %}
 </div>
