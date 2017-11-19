@@ -24,8 +24,7 @@ author:
 ---
 <p><strong>Metaball Skinner:</strong> Update (Mar 24, 2017): I made this functionality into a blender add-on! Get it here: <a href="https://www.blendermarket.com/products/metaball-skinner" target="_blank">https://www.blendermarket.com/products/metaball-skinner</a></p>
 
-{% include image.html name="monkeys_compare.png" %}
-*Left: result from metaball skinning script I wrote. This model is guaranteed to result in a valid mesh for 3d printing. Right: Built in skin modifier (blender) with a subdivision surface smoothing. This model is likely to cause errors when processed for 3d printing.*
+{% include image.html name="monkeys_compare.png" caption="Left: result from metaball skinning script I wrote. This model is guaranteed to result in a valid mesh for 3d printing. Right: Built in skin modifier (blender) with a subdivision surface smoothing. This model is likely to cause errors when processed for 3d printing."%}
 
 
 <p>In the midst of working on <a href="https://github.com/jlopezbi/PlantGrower">evolving plant/coral thingmabobs</a>, I am exploring 3d printing some of the earlier shapes I came up with, when I was writing the growth algorithms explicitly. To do this I need a reliable way to 'skin' the skeletons (or 'thicken' the wireframes). The skeletons consist of one dimensional line-segments, touching end-to-end, and occasionally branching. There are various way to do this.</p>
