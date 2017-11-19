@@ -5,8 +5,8 @@ layout: default
 <div class="grid-container">
 {% for work in site.works %}
 <div class="grid-element">
-        <a href="{{ site.baseurl }}{{ work.url }}">TEST
-                <!-- <img src="{{ site.basurl }}/assets/thumbnail_test.png"> -->
+        <a href="{{ site.baseurl }}{{ work.url }}">
+                 <img class="grid-img" src="{{ site.basurl }}/assets/thumbnail_test.png"> 
         </a>
         <!-- <p><a href="{{ site.baseurl }}{{ work.url }}">{{ work.title }}</a></p> -->
 </div>
@@ -14,8 +14,7 @@ layout: default
 {% endfor %}
 {% assign n = site.works | size | modulo:2 %}
 {% if n == 1 %}
-<div class="grid-element">
-blank
+<div class="grid-element no-border">
 </div>
 {% endif %}
 </div>
