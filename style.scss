@@ -23,7 +23,7 @@ body {
   color: $darkGray;
 }
 
-.container {
+._container {
   margin: 0 auto;
   max-width: 740px;
   padding: 0 10px;
@@ -106,9 +106,6 @@ strong, b {
   font-weight: bold;
 }
 
-img {
-  max-width: 100%;
-}
 
 .current {
   font-weight: bold;
@@ -244,6 +241,15 @@ nav {
 //
 // .main
 //
+
+.card {
+        background-color: lightblue;
+}
+
+.card-img {
+        width: 100%;
+
+}
 
 .posts > .post {
   padding-bottom: 2em;
