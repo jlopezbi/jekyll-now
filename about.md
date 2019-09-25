@@ -29,4 +29,4 @@ likes trees
 
 [ello](https://ello.co/spikeyblobs)
 
-[tumblr](https://www.tumblr.com/blog/blobsandspikes)
+[tumblr](https://blobsandspikes.tumblr.com/)
